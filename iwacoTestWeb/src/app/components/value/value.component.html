@@ -1,0 +1,13 @@
+<div class="col-md-12 myContainer">
+  <div class="row subContainer">
+    <div class="col-md-1 dot"></div>
+    <div class="col-md-6 myTitle">
+      <p class="title">{{title}}</p>
+    </div>
+    <div (click)="changeShownValue()" class="col-md-1 imageContainer" >
+      <img *ngIf="!isShown" class="image" src="../../../assets/downArrow.png" alt="test.png">
+      <img *ngIf="isShown" class="image" src="../../../assets/upArrow.png" alt="test.png">
+    </div>
+  </div>
+  <p *ngIf="isShown" class="desc">{{desc}}</p>
+</div>

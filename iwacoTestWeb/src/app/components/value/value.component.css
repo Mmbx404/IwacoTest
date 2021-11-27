@@ -1,0 +1,37 @@
+.dot {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: 3%;
+  margin-right: 5%;
+  background-color: cornflowerblue;
+  --bs-gutter-x: 0rem;
+}
+.desc {
+  font-size: 16px;line-height: 30px; color: cornflowerblue;
+  margin: 0 0 0 0;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+.imageContainer {
+  margin-left: 28%;
+}
+.image {
+  margin-left: 100%;
+}
+.myContainer {
+  background-color: #f5f4f0;
+  box-shadow: 0px -1px 3px 0px;
+}
+
+.subContainer {
+  align-items: center;
+}
+
+.title {
+  width: 96px;height: 19px;color:cornflowerblue;margin-top: 2%;
+}
+
+.myTitle {
+  --bs-gutter-x: 0;
+}
